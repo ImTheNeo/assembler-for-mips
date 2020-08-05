@@ -1,0 +1,9 @@
+test:
+beq $s1, $s2, test
+beq $s1, $s2, test1
+add $s1, $s1, $s1
+addi $s1, $s1, 23
+jr $s1
+j test
+test1:
+beq $s1, $s2, test1

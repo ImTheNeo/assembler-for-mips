@@ -1,0 +1,8 @@
+test:
+beq $s1, $s2, test
+beq $s1, $s2, test1
+add $s1, $s1, $s1
+add $s1, $s1, $s1
+add $s1, $s1, $s1
+test1:
+beq $s1, $s2, test1
